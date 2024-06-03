@@ -2,5 +2,9 @@
 @import "globals";
 @import "grid";
 @import "typography";
-@import "utils/spacings";
 @import "hr";
+
+@import "utils/spacings";
+@import "utils/colors.scss";
+@import "utils/fonts.scss";
+@import "utils/widths.scss";

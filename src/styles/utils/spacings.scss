@@ -13,7 +13,7 @@ $paddingBottom: (80);
   }
 }
 
-$marginBottom: (30);
+$marginBottom: (10, 20, 30, 50);
 @each $mb in $marginBottom {
   .mb-#{$mb} {
     margin-bottom: #{$mb}px;

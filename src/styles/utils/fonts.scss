@@ -1,0 +1,6 @@
+$fontWeight: (600);
+@each $fw in $fontWeight {
+  .mb-#{$fw} {
+    font-weight: #{$fw}px;
+  }
+}
